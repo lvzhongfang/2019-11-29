@@ -37,6 +37,10 @@ public class HelloWorld {
         System.out.println(present.isPresent());
         System.out.println(present.or("Default Value"));
         System.out.println(present.orNull());
+
+        String p = Dog.normalize("/dog/cat/");
+
+        System.out.println(p);
     }
 
 }
